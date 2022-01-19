@@ -1,5 +1,4 @@
 const fs = require("fs");
-const breedDetails = require("./syncBreeds");
 
 const breedDetailsFromFile = function (breed, secondFunc) {
   console.log("breedDetailsFromFile: Calling readFile...");
